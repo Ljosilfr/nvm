@@ -6,7 +6,7 @@ vim.cmd('set nowrap')
 vim.cmd('set clipboard=unnamedplus')
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
-vim.opt.expandtab = true
+vim.opt.expandtab = false
 
 vim.keymap.set('n', '<F9>', ':w<CR>', { desc = 'Save current file' })
 vim.keymap.set('n', '<F8>', ':wq<CR>', { desc = 'Save current file' })
